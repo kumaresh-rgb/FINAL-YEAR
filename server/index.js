@@ -18,15 +18,7 @@ app.use('/api/v1/dalle',dalleRoutes);
 app.get("/",async(req, res)=>{
     res.send('Hello from DALLE');
 });
-
-const startServer = async()=>{
-    try{
-        connectDB(process.env.MONGODB_URL);
-        app.listen(8080,()=>{
+connectDB(process.env.MONGODB_URL);
+    app.listen(process.env.PORT||8080,()=>{
             console.log('server has started on port http://localhost:8080');
         })
-    }catch(error){
-        console.log(error);
-    }
-;}
-startServer();
