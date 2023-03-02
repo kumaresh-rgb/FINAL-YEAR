@@ -19,6 +19,6 @@ app.get("/",async(req, res)=>{
     res.send('Hello from DALLE');
 });
 connectDB(process.env.MONGODB_URL);
-    app.listen(process.env.PORT||8080,()=>{
+    app.listen(8080,()=>{
             console.log('server has started on port http://localhost:8080');
         })
