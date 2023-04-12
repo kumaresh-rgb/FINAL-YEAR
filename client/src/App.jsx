@@ -20,7 +20,7 @@ const App = () => {
         </Routes>
       </main>
       <footer className='w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4] place-content-end '>
-      <a href='https://github.com/Anuragmaurya-code'><p className='text-right hover:text-[#BDCDD6] '>Made by Anurag Maurya</p></a>
+      <a href='https://github.com/kumaresh-rgb/FINAL-YEAR'><p className='text-right hover:text-[#BDCDD6] '>Made by Kumaresh</p></a>
       
     </footer>
     </BrowserRouter>
