@@ -9,7 +9,7 @@ const App = () => {
       {/* w-full is window full width ,flex makes it a flex container, justify between is justfying space inbetween , items-center jsutifiy items 
       center, px-8 -> padding left and right 1rem ,border-b	-> border-bottom-width: 1px; #e6ebf4 is color set to border */}
       <Link to="/">
-        <img src={logo} alt="logo" className="w-28 h-28 object-contain" />
+        <img src={logo} alt="logo" className="w-20 h-20 object-contain" />
       </Link>
       <Link to="/create-post" className='font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md'>Create</Link>
       </header>
