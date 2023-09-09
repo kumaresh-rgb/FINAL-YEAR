@@ -5,7 +5,8 @@ import {Home,CreatePost} from "./pages";
 const App = () => {
   return (
     <BrowserRouter>
-      <header className='w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]'>
+      <header className='w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4] sticky top-0 z-10'>
+        
       {/* w-full is window full width ,flex makes it a flex container, justify between is justfying space inbetween , items-center jsutifiy items 
       center, px-8 -> padding left and right 1rem ,border-b	-> border-bottom-width: 1px; #e6ebf4 is color set to border */}
       <Link to="/">
